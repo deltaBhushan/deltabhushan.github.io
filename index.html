@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhushan Joshi</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      gap: 40px;
+    }
+
+    .text-section {
+      flex: 1;
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
+      color: #555;
+      margin-bottom: 25px;
+      font-size: 1.1em;
+    }
+
+    .intro {
+      line-height: 1.7;
+      font-size: 1.05em;
+    }
+
+    .image-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-section img {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LEFT: TEXT -->
+    <div class="text-section">
+      <h1>Bhushan Joshi</h1>
+      <div class="tagline">
+        Detector Systems | Embedded Systems | Astronomical Instrumentation
+      </div>
+
+      <div class="intro">
+        <p>
+        I am an electronics engineer and Scientific Officer with over a decade of experience in developing advanced instrumentation for astronomy.
+        </p>
+
+        <p>
+        My work focuses on the design and implementation of detector systems, FPGA-based readout electronics, and embedded architectures for high-performance imaging applications. I specialize in translating scientific requirements into fully functional hardware systems — from concept and design to integration and deployment.
+        </p>
+
+        <p>
+        I am currently pursuing a PhD at Stellenbosch University, working on high-cadence sCMOS imaging systems for time-domain astronomy, with an emphasis on real-time data acquisition and processing.
+        </p>
+
+        <p>
+        My experience includes contributions to observatory-class instruments and space missions, where I have been directly involved in detector integration, electronics design, system testing, and on-site deployment.
+        </p>
+      </div>
+    </div>
+
+    <!-- RIGHT: IMAGE -->
+    <div class="image-section">
+      <!-- Replace with your image -->
+      <img src="images/profile_or_lab.jpg" alt="Bhushan Joshi or Lab Work">
+    </div>
+
+  </div>
+
+</body>
+</html>
